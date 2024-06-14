@@ -104,6 +104,9 @@ header {
     background-color: rgba(25, 50, 164, 0.673);
     color: #fff;
     border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .Boxes > ul > li > img {
     width: 100%;
@@ -119,8 +122,7 @@ header {
     height: 50px;
     width: 125px;
     padding: 15px 0;
-    margin: 5px 5px;
-    text-align: center;
+    margin: 15px 5px;
     font-weight: bold;
     border: 3px solid rgba(25, 50, 164, 0.673);
     cursor: pointer;
@@ -128,12 +130,15 @@ header {
     background-color: rgba(255, 255, 255, 0.678);
     color: white;
 }
-.Boxtitle{
+.Boxtitle {
     padding-top: 50px;
     text-align: center;
     font-size: 20px;
     font-weight: bolder;
 }
-.Boxes > img {
-    padding-top: 50px;
+.Boxes > div {
+    margin-top: 50px;
+    width: 90%;
+    height: 400px;
+    background-color: rgba(25, 50, 164, 0.673);
 }
