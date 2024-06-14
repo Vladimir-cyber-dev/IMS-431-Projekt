@@ -138,7 +138,12 @@ header {
 }
 .Boxes > div {
     margin-top: 50px;
+    margin-left: 5%;
+    border-radius: 60px;
     width: 90%;
     height: 400px;
     background-color: rgba(25, 50, 164, 0.673);
+}
+.Boxes > div > img {
+    
 }
