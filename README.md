@@ -1,18 +1,18 @@
 # IMS 431 Projekt (Mobile App (Zeichnen) --> Pique)
 - Name: Pique
-- Type: Zeichnen App
+- Typ: Zeichnen App
 
 Tabs:
 -----
-- Support (FaQ)
+- Support (FAQ)
 - Impressum
-- Features
+- Funktionen
 
-Main Page:
+Hauptseite:
 ----------
-- User Review
-- Big screen when opening
-- Feature list with “read more” --> links to Feature page
-- Support button in the Tabbar --> links to Support page
-- Impressum on the bottom of the page --> links to Impressum page
-- Copright by Pique at the bottom
+- Benutzerbewertung
+- Großer Bildschirm beim Öffnen
+- Funktionsliste mit „Weiterlesen“ --> Links zur Funktionsseite
+- Support-Button in der Tabbar --> Links zur Support-Seite
+- Impressum unten auf der Seite --> Links zur Impressum-Seite
+- Copyright by Pique unten
