@@ -1,6 +1,6 @@
 # IMS 431 Projekt (Mobile App (Zeichnen) --> Pique)
-Name: Pique
-Type: Zeichnen App
+- Name: Pique
+- Type: Zeichnen App
 
 Tabs:
 -----
@@ -15,4 +15,4 @@ Main Page:
 - Feature list with “read more” --> links to Feature page
 - Support button in the Tabbar --> links to Support page
 - Impressum on the bottom of the page --> links to Impressum page
-- Copright by Scent at the bottom
+- Copright by Pique at the bottom
