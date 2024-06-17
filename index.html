@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pique - The best paint app</title>
     <link rel="stylesheet" href="style/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
 </head>
 <body>
     <div class="content">
@@ -12,7 +16,7 @@
             <nav class="navbar">
                 <img src="image/Neues Projekt (4).png" alt="Pique logo" height="40">
                 <ul>
-                    <li><a href="#">Support</a></li>
+                    <li><a href="pages/support.html">Support</a></li>
                     <li><a href="#">Features</a></li>
                     <li><a href="#">Impressum</a></li>
                 </ul>
@@ -28,6 +32,9 @@
                 <button type="button" onclick="self.location.href= '#'">Login</button>
                 <button type="button" onclick="self.location.href= '#'">By Now!</button>
             </div>
+        </main>
+        <main>
+            <img class="MainImage" src="image/Neues Projekt (7).png" alt="e" height="650"width="500">
         </main>
         <main class="Boxes">
             <p>Unsere Features</p>
@@ -53,11 +60,17 @@
             </ul>
             <div class="FAQ">
                 <p>Frequently Asked Questions</p>
-                <ul>
+                <ul class="Firstunorderlist">
                     <li>
                         <h6>Does your software have xyz?</h6>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, aliquam!</p>
                     </li>
+                    <li>
+                        <h6>Does your software have xyz?</h6>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, aliquam!</p>
+                    </li>
+                </ul>
+                <ul>
                     <li>
                         <h6>Does your software have xyz?</h6>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, aliquam!</p>
@@ -68,7 +81,7 @@
                     </li>
                 </ul>
             </div>
-            <div class="Aboutme">
+            <div class="Aboutus">
                 <img src="image/Neues Projekt (6).png" alt="Phone pic" height="400" >
                 <div>
                     <h6>About Us</h6>
@@ -76,17 +89,92 @@
                     <button type="button" onclick="self.location.href= '#'">Read More</button>
                 </div>
             </div>
-            <div class="SlideBoxes">
-                <p>What are clients say</p>
-                <div class="Text">
-                    <p id="ClientText">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, obcaecati.</p>
+
+
+            <section class="Review">
+                <div class="testimonial-heading">
+                    <span>Not Convinced?</span>
+                    <h4>Here's what our reviews say!</h4>
                 </div>
-                <div class="buttons">
-                    <label onclick="document.querySelector('#ClientText').innerHTML = 'hallo2'">last</label>
-                    <label onclick="document.querySelector('#ClientText').innerHTML = 'hallo2'">last</label>
+                <div class="testimonial-box-container">
+                    <div class="testimonial-box">
+                        <div class="box-top">
+                            <div class="profile">
+                                <div class="profile-img">
+                                    <img src="https://cdn3.iconfinder.com/data/icons/avatars-15/64/_Ninja-2-512.png" />
+                                </div>
+                                <div class="name-user">
+                                    <strong>Liam mendes</strong>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="client-comment">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, quaerat quis? Provident temporibus architecto asperiores nobis maiores nisi a. Quae doloribus ipsum aliquam tenetur voluptates incidunt blanditiis sed atque cumque.</p>
+                        </div>
+                    </div>
+                    <div class="testimonial-box">
+                        <div class="box-top">
+                            <div class="profile">
+                                <div class="profile-img">
+                                    <img src="https://cdn3.iconfinder.com/data/icons/avatars-15/64/_Ninja-2-512.png" />
+                                </div>
+                                <div class="name-user">
+                                    <strong>Noah Wood</strong>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="client-comment">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, quaerat quis? Provident temporibus architecto asperiores nobis maiores nisi a. Quae doloribus ipsum aliquam tenetur voluptates incidunt blanditiis sed atque cumque.</p>
+                        </div>
+                    </div>
+                    <div class="testimonial-box">
+                        <div class="box-top">
+                            <div class="profile">
+                                <div class="profile-img">
+                                    <img src="https://cdn3.iconfinder.com/data/icons/avatars-15/64/_Ninja-2-512.png" />
+                                </div>
+                                <div class="name-user">
+                                    <strong>Oliver Queen</strong>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="client-comment">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, quaerat quis? Provident temporibus architecto asperiores nobis maiores nisi a. Quae doloribus ipsum aliquam tenetur voluptates incidunt blanditiis sed atque cumque.</p>
+                        </div>
+                    </div>
+                    <div class="testimonial-box">
+                        <div class="box-top">
+                            <div class="profile">
+                                <div class="profile-img">
+                                    <img src="https://cdn3.iconfinder.com/data/icons/avatars-15/64/_Ninja-2-512.png" />
+                                </div>
+                                <div class="name-user">
+                                    <strong>Barry Allen</strong>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="client-comment">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, quaerat quis? Provident temporibus architecto asperiores nobis maiores nisi a. Quae doloribus ipsum aliquam tenetur voluptates incidunt blanditiis sed atque cumque.</p>
+                        </div>
+                    </div>
                 </div>
-            </div>
+              </section>
         </main>
+        <footer>
+            <ul>
+                <ul>
+                    <li>Impressum</li>
+                    <li>Support</li>
+                    <li>Features</li>
+                    <li>FAQ</li>
+                </ul>
+            </ul>
+            <div>
+                <h1>Pique</h1>
+                <p>© pique.com, Pique Solutions LLC - All rights reserved. Designed and Developed by Vladimir and Christian.</p>
+            </div>
+            <img src="image/Neues Projekt (4).png" alt="new" width="100" height="100">
+        </footer>
     </div>
 </body>
 </html>
