@@ -1,12 +1,12 @@
 * {
     box-sizing: border-box;
-    padding: 0;
+    padding-top: 0;
     margin: 0;
     border: 0;
 }
 body {
     height: 200rem;
-    background-color:rgba(0, 0, 0, 0.75);
+    background-color:rgba(255, 255, 255, 0.286);
 }
 .content {
     height: 50.25rem;
@@ -90,8 +90,17 @@ header {
     background-color: rgba(255, 255, 255, 0.678);
     color: white;
 }
+.FeatureTitel > p {
+    font-size: 30px;
+    color: white;
+    font-weight: bolder;
+    display: flex;
+    flex-direction: column;
+    margin-top: 32%;
+    align-items: center;
+}
 .Boxes > ul {
-    margin-top: 30%;
+    margin-top: 5%;
     display: flex;
     flex-direction: row;
     align-items: center;
