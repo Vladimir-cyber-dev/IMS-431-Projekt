@@ -10,10 +10,9 @@ body {
     font-family: "Roboto", sans-serif;
 }
 .content {
-    height: 50.25rem;
-    background-image: url(../image/banner2.jpg);
+    height: -7.5%;
+    background-image: url(../image/Neues\ Projekt\ \(9\).png);
     background-repeat: no-repeat;
-    background-size: cover;
 }
 a {
     text-decoration: none;
@@ -60,17 +59,8 @@ header {
     transition: all ease 0.3s;
     font-size: 24px;
 }
-.navbar > ul > li > a:not(:hover) {
-    transform: translateY(10px);
-    transition: all ease 0.3s;
-    font-size: 20px;
-}
 .navbar > a:hover {
     font-size: 24px;
-    transition: all ease 0.3s;
-}
-.navbar > a:not(:hover) {
-    font-size: 20px;
     transition: all ease 0.3s;
 }
 .navbar > ul {
@@ -89,15 +79,14 @@ header {
     transform: translateY(-10px);
     transition: all ease 0.3s;
 }
-.MainImage:not(:hover){
-    transform: translateY(10px);
-    transition: all ease 0.3s;
-}
 .Main1 {
     align-items: center;
     display: flex;
     flex-direction: column;
     margin-right: 50%;
+}
+.container {
+    padding-top: 10%;
 }
 .Maintitle {
     margin-top: 50%;
@@ -124,12 +113,7 @@ button {
     color: white;
 }
 button:hover {
-    transition: all ease 0.15s;
     background-color: rgba(255, 255, 255, 0.6);
-}
-button:not(:hover) {
-    transition: all ease 0.15s;
-    background-color: rgba(255, 255, 255,0.45);
 }
 .Buttons > button {
     width: 200px;
@@ -147,30 +131,72 @@ button:not(:hover) {
     list-style-type: none;
 }
 .Boxes > h6 {
-    color: rgb(255, 255, 255);
-    font-size: 60px;
+    color: rgb(154, 53, 231);
+    font-size: 52.5px;
     font-weight: bolder;
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-top: 9%;
     text-align: center;
-    padding-top: 20%;
 }
 .Boxes > p {
-    color: rgb(255, 255, 255);
-    font-size: 25px;
+    color: rgb(154, 53, 231);
+    font-size: 22.5px;
     font-weight: bolder;
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-top: 1%;
     text-align: center;
-    margin-top: 1%;
+}
+.Boxes > ul > li{
+    width: 350px;
+    height: 500px;
+    background-color: rgba(154, 53, 231, 0.763);
+    color: #fff;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 2px 2px 30px rgba(0,0,0,0.1);
+}
+.Boxes > ul > li:hover{
+    transform: translateY(-10px);
+    transition: all ease 0.3s;
+}
+.Boxes > ul > li > img {
+    width: 100%;
+    height: 50%;
+    padding-top: 5px;
+}
+.Boxes > ul > li > p {
+    padding-top: 10px;
+    text-align: center;
+    font-size: 15px;
+}
+.Boxes > ul > li > button {
+    height: 50px;
+    width: 125px;
+    padding: 15px 0;
+    margin: 15px 5px;
 }
 .Boxtitle {
     padding-top: 50px;
     text-align: center;
     font-size: 20px;
     font-weight: bolder;
+}
+h2 {
+    font-size: 35px;
+    color: violet;
+    font-weight: bolder;
+}
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
 }
 .FAQ {
     align-items: center;
@@ -186,17 +212,17 @@ button:not(:hover) {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 40%;
+    margin-top: 7.5%;
     text-align: center;
 }
 .FAQ > p {
     color: rgb(154, 53, 231);
-    font-size: 35px;
+    font-size: 30px;
     font-weight: bolder;
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 7.5%;
+    margin-top: 2.5%;
     text-align: center;
 }
 .FAQ > ul {
@@ -205,7 +231,7 @@ button:not(:hover) {
     text-align: center;
     list-style-type: none;
     gap: 80px;
-    margin-top: 2.5%;
+    margin-top: 7.5%;
 }
 .FAQ > ul > li > h6 {
     font-weight: bolder;
@@ -232,10 +258,6 @@ button:not(:hover) {
 
 .Aboutus:hover{
     transform: translateY(-10px);
-    transition: all ease 0.3s;
-}
-.Aboutus:not(:hover){
-    transform: translateY(10px);
     transition: all ease 0.3s;
 }
 .Aboutus > div {
@@ -333,103 +355,3 @@ footer > ul > li:hover {
 main {
     margin-bottom: 7.5%;
 }
-
-
-
-
-.Review{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    width:100%;
-  }
-  .testimonial-heading{
-    margin: 30px 0px;
-    padding: 10px 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .testimonial-heading > span{
-    color: rgb(154, 53, 231);
-    margin-bottom: 10px;
-    font-weight: bolder;
-    font-size: 45px;
-  }
-  .testimonial-heading > h4{
-    color: rgb(154, 53, 231);
-    margin-bottom: 10px;
-    font-weight: bolder;
-    font-size: 20px;
-  }
-  .testimonial-box-container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    width:100%;
-  }
-  .testimonial-box{
-    width:500px;
-    box-shadow: 2px 2px 30px rgba(0,0,0,0.1);
-    background-color: rgba(154, 53, 231, 0.763);
-    border-radius: 26px;
-    padding: 20px;
-    margin: 15px;
-    cursor: pointer;
-  }
-  .profile-img{
-    width:50px;
-    height: 50px;
-    border-radius: 50%;
-    overflow: hidden;
-    margin-right: 10px;
-  }
-  .profile-img > img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    object-position: center;
-  }
-  .profile{
-    display: flex;
-    align-items: center;
-  }
-  .name-user{
-    display: flex;
-    flex-direction: column;
-  }
-  .name-user > strong{
-    color: #ffffff;
-    font-size: 1.1rem;
-    letter-spacing: 0.5px;
-  }
-  .name-user > span{
-    color: #ffffff;
-    font-size: 0.8rem;
-  }
-  .box-top{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 20px;
-  }
-  .client-comment > p{
-    font-size: 0.9rem;
-    color: #ffffff;
-  }
-  .testimonial-box:hover{
-    transform: translateY(-10px);
-    transition: all ease 0.3s;
-  }
-  .testimonial-box:not(:hover){
-    transform: translateY(10px);
-    transition: all ease 0.3s;
-  }
-  ::selection{
-    color: #ffffff;
-    background-color: #252525;
-  }
