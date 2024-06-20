@@ -1,0 +1,138 @@
+
+* {
+	box-sizing: border-box;
+}
+html {
+    height: 100%;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: "Roboto", sans-serif;
+    width: 100%;
+    height: 100%;
+    background-color: gray;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 50%;
+    height: 60%;
+    background-color: rgba(154, 53, 231, 0.763);
+    border-radius: 26px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.448);
+}
+.container > main {
+    padding-bottom: 30px;
+    background-color: white;
+    min-width: 50%;
+    max-width: 50%;
+    border-top-left-radius: 26px;
+    border-bottom-left-radius: 26px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.sign-in-header {
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
+    font-size: 55px;
+}
+.sign-up-header {
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+    font-size: 45px;
+}
+input {
+    font-size: 16px;
+    width: 260px;
+    height: 42px;
+    background-color: rgba(128, 128, 128, 0.212);
+    border:0;
+    padding-left:15px;
+}
+.label-email {
+    margin-bottom: 20px;
+}
+.label-password {
+    margin-bottom: 20px;
+}
+a {
+    text-decoration: none;
+    color: rgb(17, 17, 17);
+}
+a:hover{
+    color: rgb(146, 146, 146);
+}
+a:not(:hover){
+    color: rgb(17, 17, 17);
+}
+.sign-in-button {
+    text-transform: uppercase;
+    margin-top: 50px;
+    font-size: 14px;
+    background-color: rgba(210, 43, 225, 0.858);
+    font-weight: bold;
+    border: 1px solid rgb(255, 255, 255);
+    cursor: pointer;
+    border-radius: 25px;
+    color: white;
+    width: 150px;
+    height: 50px;
+}
+.sign-in-button:hover {
+    transition: all ease 0.1s;
+    background-color: rgb(213, 140, 220);
+}
+.sign-in-button:not(:hover) {
+    transition: all ease 0.1s;
+    background-color: rgba(210, 43, 225, 0.858);
+}
+
+/** Aside **/
+.container > aside {
+    width: 100%;
+}
+.container > aside > div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.container > aside > div > h1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+p {
+    color: #fff;
+    margin-top: -30px;
+}
+.sign-up-button {
+    text-transform: uppercase;
+    margin-top: 20px;
+    font-size: 14px;
+    font-weight: bold;
+    background-color: rgba(0,0,0,0);;
+    border: 1px solid rgb(255, 255, 255);
+    cursor: pointer;
+    border-radius: 25px;
+    color: white;
+    width: 150px;
+    height: 50px;
+}
+.sign-up-button:hover {
+    border: 1px solid rgb(208, 208, 208);
+    color: rgb(208, 208, 208);
+}
+.sign-up-button:not(:hover) {
+    border: 1px solid rgb(255, 255, 255);
+    color: white;
+}
