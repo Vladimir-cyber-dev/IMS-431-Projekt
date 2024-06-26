@@ -45,14 +45,22 @@
     gap: 100px;
     margin-top: 2%;
 }
+.faq > ul > li {
+    text-align: center;
+    width: 33.33%;
+}
+.faq > ul > li:hover {
+    transform: translateY(-10px);
+    transition: all ease 0.3s;
+}
+.faq > ul > li:not(:hover) {
+    transform: translateY(10px);
+    transition: all ease 0.3s;
+}
 .faq > ul > li > h6 {
     font-weight: bolder;
     text-align: center;
     align-items: center;
     color: rgb(154, 53, 231);
     font-size: 26px;
-}
-.faq > ul > li {
-    text-align: center;
-    width: 33.33%;
 }
