@@ -17,6 +17,9 @@ h3 {
     min-width: 30%;
     max-width: 30%;
 }
+.phone-box-features > ul > li {
+    text-align: center;
+}
 .first-list-features {
     list-style-type: none;
     display: flex;

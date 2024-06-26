@@ -88,9 +88,8 @@ main{
 }
 .main-image {
     position: absolute;
-    left: 62.5%;
+    left: 50.5%;
     top: 130px;
-    box-shadow: 2px 2px 30px rgba(0,0,0,0.1);
 }
 .main-image:hover{
     transform: translateY(-10px);
@@ -153,7 +152,6 @@ button:not(:hover) {
     margin-top: 7.5%;
     display: flex;
     flex-direction: row;
-    align-items: center;
     justify-content: space-around;
     list-style-type: none;
 }
@@ -194,6 +192,7 @@ button:not(:hover) {
 }
 .feature-button {
     margin-top: 7.5%;
+    margin-bottom: 3%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -204,9 +203,9 @@ button:not(:hover) {
     padding: 15px 0;
     text-align: center;
     color: #fff;
-    background-color: rgb(154, 53, 231, 0.45);
+    background-color: rgba(154, 53, 231, 0.45);
     font-weight: bold;
-    border: 3px solid rgba(0, 0, 0, 0.296);
+    border: 3px solid rgb(154, 53, 231);
     cursor: pointer;
 }
 .feature-button > button:hover{
@@ -214,6 +213,30 @@ button:not(:hover) {
 }
 .feature-button > button:not(:hover){
     background-color: rgb(154, 53, 231, 0.45);
+}
+.faq-button {
+    margin-top: 7.5%;
+    margin-bottom: 3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center
+}
+.faq-button > button {
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    color: #fff;
+    background-color: rgba(255, 255, 255, 0.45);
+    font-weight: bold;
+    border: 3px solid rgb(255, 255, 255);
+    cursor: pointer;
+}
+.faq-button > button:hover{
+    background-color: rgba(255, 255, 255, 0.6);
+}
+.faq-button > button:not(:hover){
+    background-color: rgba(255, 255, 255, 0.45);
 }
 .box-title {
     padding-top: 50px;
@@ -227,15 +250,14 @@ button:not(:hover) {
     flex-direction: column;
     text-align: center;
     margin-bottom: 7%;
-    margin-top: 15%;
+    margin-top: 12%;
 }
 .faq {
-    
     background-color: rgba(154, 53, 231, 0.763);
 }
 .faq > p {
     margin-top: 7%;
-    margin-bottom: 7.5%;
+    margin-bottom: 5%;
     color: #fff;
     font-size: 45px;
     font-weight: bolder;
@@ -251,6 +273,22 @@ button:not(:hover) {
     list-style-type: none;
     gap: 80px;
     margin-bottom: 7.5%;
+    margin-left: 10%;
+    text-align: center;
+}
+.faq > ul > li {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 40%;
+}
+.faq > ul > li:hover {
+    transform: translateY(-10px);
+    transition: all ease 0.3s;
+}
+.faq > ul > li:not(:hover) {
+    transform: translateY(10px);
+    transition: all ease 0.3s;
 }
 .faq > ul > li > h6 {
     font-weight: bolder;
@@ -261,9 +299,6 @@ button:not(:hover) {
 }
 .faq > ul > li > p {
     color: #fff;
-}
-.faq > ul > li {
-    text-align: center;
 }
 .about-us {
     margin-top: 100px;
@@ -287,24 +322,31 @@ button:not(:hover) {
     transition: all ease 0.3s;
 }
 .about-us > div {
+    width: 30%;
+    margin-left: 7.5%;
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
     color: #fff;
 }
+
 .about-us > div > h6 {
     padding-top: 30px;
     font-weight: bolder;
-    font-size: 40px;
+    font-size: 50px;
     margin-bottom: 10px;
 }
-
+.about-us > div > p {
+    font-size: 20px;
+    padding-top: 2.5%;
+}
 .about-us > div > button {
+    margin-top: auto;
+    margin-bottom: 10%;
     height: 50px;
-    width: 125px;
+    width: 200px;
     padding: 15px 0;
-    margin: 15px 5px;
 }
 .SlideBoxes {
     display: flex;
@@ -380,6 +422,7 @@ button:not(:hover) {
     border-radius: 50%;
     overflow: hidden;
     margin-right: 10px;
+    background-color: rgb(242, 232, 205);
 }
 .profile-img > img{
     width: 100%;
@@ -557,5 +600,5 @@ main {
     font-style: italic;
   }
 .purple {
-    color: rgb(154, 53, 231);
+    color: rgb(153, 0, 255);
 }
