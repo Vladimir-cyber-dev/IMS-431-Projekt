@@ -556,3 +556,6 @@ main {
     font-weight: 900;
     font-style: italic;
   }
+.purple {
+    color: rgb(154, 53, 231);
+}
