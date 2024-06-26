@@ -203,16 +203,16 @@ button:not(:hover) {
     padding: 15px 0;
     text-align: center;
     color: #fff;
-    background-color: rgba(154, 53, 231, 0.45);
+    background-color: rgba(154, 53, 231, 0.6);
     font-weight: bold;
     border: 3px solid rgb(154, 53, 231);
     cursor: pointer;
 }
 .feature-button > button:hover{
-    background-color: rgba(154, 53, 231, 0.6);
+    background-color: rgba(154, 53, 231, 0.45);
 }
 .feature-button > button:not(:hover){
-    background-color: rgb(154, 53, 231, 0.45);
+    background-color: rgb(154, 53, 231, 0.6);
 }
 .faq-button {
     margin-top: 7.5%;
