@@ -145,8 +145,12 @@ button:not(:hover) {
     text-align: center;
     align-items: center;
 }
+.boxes {
+    display: flex;
+    flex-direction: column;
+}
 .boxes > ul {
-    margin-top: 10%;
+    margin-top: 7.5%;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -161,18 +165,19 @@ button:not(:hover) {
     flex-direction: column;
     align-items: center;
     text-align: center;
-    margin-top: 27.5%;
+    margin-top: 20%;
 }
 .boxes > ul > li{
     width: 350px;
-    height: 500px;
-    background-color: rgba(154, 53, 231, 0.763);
-    color: #fff;
+    height: auto;
+    color: rgb(154, 53, 231);
     border-radius: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    box-shadow: 2px 2px 30px rgba(0,0,0,0.1);
+}
+.boxes > ul > li > img{
+    margin-bottom: -7%;
 }
 .boxes > ul > li:hover{
     transform: translateY(-10px);
@@ -182,43 +187,61 @@ button:not(:hover) {
     transform: translateY(10px);
     transition: all ease 0.3s;
 }
-.boxes > ul > li > img {
-    width: 100%;
-    height: 50%;
-    padding-top: 5px;
-}
 .boxes > ul > li > p {
     padding-top: 10px;
     text-align: center;
     font-size: 15px;
 }
-.boxes > ul > li > button {
-    height: 50px;
-    width: 125px;
+.feature-button {
+    margin-top: 7.5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center
+}
+.feature-button > button {
+    width: 200px;
     padding: 15px 0;
-    margin: 15px 5px;
+    text-align: center;
+    color: #fff;
+    background-color: rgb(154, 53, 231, 0.45);
+    font-weight: bold;
+    border: 3px solid rgba(0, 0, 0, 0.296);
+    cursor: pointer;
+}
+.feature-button > button:hover{
+    background-color: rgba(154, 53, 231, 0.6);
+}
+.feature-button > button:not(:hover){
+    background-color: rgb(154, 53, 231, 0.45);
 }
 .box-title {
     padding-top: 50px;
     text-align: center;
-    font-size: 20px;
+    font-size: 30px;
     font-weight: bolder;
 }
-.faq {
+.faq-background {
     align-items: center;
     display: flex;
     flex-direction: column;
     text-align: center;
-    margin-bottom: 15%;
+    margin-bottom: 7%;
+    margin-top: 15%;
+}
+.faq {
+    
+    background-color: rgba(154, 53, 231, 0.763);
 }
 .faq > p {
-    color: rgb(154, 53, 231);
+    margin-top: 7%;
+    margin-bottom: 7.5%;
+    color: #fff;
     font-size: 45px;
     font-weight: bolder;
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 15%;
     text-align: center;
 }
 .faq > ul {
@@ -227,14 +250,17 @@ button:not(:hover) {
     text-align: center;
     list-style-type: none;
     gap: 80px;
-    margin-top: 7.5%;
+    margin-bottom: 7.5%;
 }
 .faq > ul > li > h6 {
     font-weight: bolder;
     text-align: center;
     align-items: center;
-    color: rgb(154, 53, 231);
+    color: #fff;
     font-size: 26px;
+}
+.faq > ul > li > p {
+    color: #fff;
 }
 .faq > ul > li {
     text-align: center;
