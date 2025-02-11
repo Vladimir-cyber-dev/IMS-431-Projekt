@@ -1,30 +1,22 @@
-# IMS 431 Projekt (Zeichnungs Computer App --> Pique)
-- Name: Pique
-- Typ: Zeichnen App
-- Geräte: Mobile / Computer
-Tabs:
------
-- Home
-- Support
-- Funktionen
-- FAQ
+<div align="center">
 
-Hauptseite:
-----------
-- Splash beim Öffnen
-### Tabbar
-- Home-Button in der Tabbar --> Links zur Homepage
-- Support-Button in der Tabbar --> Links zur Support-Seite
-- Funktion-Button in der Tabbar --> Links zur Funktion-Seite
-- FAQ-Button in der Tabbar --> Links zur FAQ-Seite
-### Homepage
-- Funktionsliste mit „Weiterlesen“ --> Links zur Funktionsseite
-- Über uns mit „Weiterlesen“ --> Links zur Funktionsseite
-- Benutzerbewertung
-### Footer
-- Impressum unten auf der Seite --> Links zur Impressum-Seite
-- Home-Button unten auf der Seite --> Links zur Homepage
-- Support-Button unten auf der Seite --> Links zur Support-Seite
-- Funktion-Button unten auf der Seite --> Links zur Funktion-Seite
-- FAQ-Button unten auf der Seite --> Links zur FAQ-Seite
-- Copyright by Pique unten mit einem Bild
+# IMS 431 Projekt "Pique"
+<p align="center">
+    <img src="https://img.shields.io/badge/license-MIT-green" alt="License">
+    <img src="https://img.shields.io/badge/language-CSS_and_HTML-red" alt="Html">
+</p>
+
+### Diese Website enthält:
+
+Splashscreen
+
+Tabbars mit funktionsfähigen Unterseiten
+
+Schöner und Lesbarer Code (Perfekt für eine Vorlage 😉)
+
+</div>
+
+> [!IMPORTANT]
+> Da Dieses Projekt locally codiert wurde, funktioniert es nicht auf github.
+>
+> Wir empfehlen diese Website herunterzuladen und mit einem Live-Server zu benutzen.
